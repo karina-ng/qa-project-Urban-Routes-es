@@ -24,10 +24,27 @@ Validé el flujo completo de solicitud de viaje utilizando **Python** y **Seleni
 - Consolidación del código en un repositorio claro y documentado   
 
 
- ## Pasos para la ejecución de las pruebas
+ ### ▶️ Cómo ejecutar el proyecto
 
-- Asegurarse de tener instaladas las tecnologias y librerias mencionadas anteriormente
-- Clonar el repositorio a su computadora
-- Ejecutar las pruebas desde el archivo `main.py`
+1. Clona el repositorio:
 
-  Dirección del banco de pruebas: https://cnt-f8ab67c5-c92d-4317-9533-b5e8515eb840.containerhub.tripleten-services.com?lng=es
+   ```bash
+   git clone https://github.com/tuusuario/qa-project-Urban-Routes-es.git
+   cd qa-project-Urban-Routes-es
+
+2. Crea y activa un entorno virtual (opcional pero recomendado):
+   ```bash
+    python -m venv venv
+    source venv/bin/activate   # En Windows usa: venv\Scripts\activate
+
+3. Instala las dependencias:
+   ```bash
+   pip install -r requirements.txt
+
+4. Ejecuta el script de prueba:
+   ```bash
+   python test_urban_routes.py
+
+Dirección del banco de pruebas: https://cnt-f8ab67c5-c92d-4317-9533-b5e8515eb840.containerhub.tripleten-services.com?lng=es
+
+Asegúrate de tener el navegador y driver compatibles configurados (por ejemplo, ChromeDriver para Chrome).
